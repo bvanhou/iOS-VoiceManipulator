@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5E371641C2B199A0073AB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E371631C2B199A0073AB52 /* AppDelegate.swift */; };
+		B5E371661C2B199A0073AB52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E371651C2B199A0073AB52 /* ViewController.swift */; };
+		B5E371691C2B199A0073AB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E371671C2B199A0073AB52 /* Main.storyboard */; };
+		B5E3716B1C2B199A0073AB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E3716A1C2B199A0073AB52 /* Assets.xcassets */; };
+		B5E3716E1C2B199A0073AB52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E3716C1C2B199A0073AB52 /* LaunchScreen.storyboard */; };
+		B5E371791C2B199A0073AB52 /* Voice_ManipulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E371781C2B199A0073AB52 /* Voice_ManipulatorTests.swift */; };
+		B5E371841C2B199A0073AB52 /* Voice_ManipulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E371831C2B199A0073AB52 /* Voice_ManipulatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5E371751C2B199A0073AB52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5E371581C2B199A0073AB52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5E3715F1C2B199A0073AB52;
+			remoteInfo = "Voice Manipulator";
+		};
+		B5E371801C2B199A0073AB52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5E371581C2B199A0073AB52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5E3715F1C2B199A0073AB52;
+			remoteInfo = "Voice Manipulator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5E371601C2B199A0073AB52 /* Voice Manipulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voice Manipulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E371631C2B199A0073AB52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5E371651C2B199A0073AB52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5E371681C2B199A0073AB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5E3716A1C2B199A0073AB52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5E3716D1C2B199A0073AB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5E3716F1C2B199A0073AB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E371741C2B199A0073AB52 /* Voice ManipulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voice ManipulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E371781C2B199A0073AB52 /* Voice_ManipulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice_ManipulatorTests.swift; sourceTree = "<group>"; };
+		B5E3717A1C2B199A0073AB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E3717F1C2B199A0073AB52 /* Voice ManipulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voice ManipulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E371831C2B199A0073AB52 /* Voice_ManipulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice_ManipulatorUITests.swift; sourceTree = "<group>"; };
+		B5E371851C2B199A0073AB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5E3715D1C2B199A0073AB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E371711C2B199A0073AB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E3717C1C2B199A0073AB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5E371571C2B199A0073AB52 = {
+			isa = PBXGroup;
+			children = (
+				B5E371621C2B199A0073AB52 /* Voice Manipulator */,
+				B5E371771C2B199A0073AB52 /* Voice ManipulatorTests */,
+				B5E371821C2B199A0073AB52 /* Voice ManipulatorUITests */,
+				B5E371611C2B199A0073AB52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5E371611C2B199A0073AB52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5E371601C2B199A0073AB52 /* Voice Manipulator.app */,
+				B5E371741C2B199A0073AB52 /* Voice ManipulatorTests.xctest */,
+				B5E3717F1C2B199A0073AB52 /* Voice ManipulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5E371621C2B199A0073AB52 /* Voice Manipulator */ = {
+			isa = PBXGroup;
+			children = (
+				B5E371631C2B199A0073AB52 /* AppDelegate.swift */,
+				B5E371651C2B199A0073AB52 /* ViewController.swift */,
+				B5E371671C2B199A0073AB52 /* Main.storyboard */,
+				B5E3716A1C2B199A0073AB52 /* Assets.xcassets */,
+				B5E3716C1C2B199A0073AB52 /* LaunchScreen.storyboard */,
+				B5E3716F1C2B199A0073AB52 /* Info.plist */,
+			);
+			path = "Voice Manipulator";
+			sourceTree = "<group>";
+		};
+		B5E371771C2B199A0073AB52 /* Voice ManipulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5E371781C2B199A0073AB52 /* Voice_ManipulatorTests.swift */,
+				B5E3717A1C2B199A0073AB52 /* Info.plist */,
+			);
+			path = "Voice ManipulatorTests";
+			sourceTree = "<group>";
+		};
+		B5E371821C2B199A0073AB52 /* Voice ManipulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5E371831C2B199A0073AB52 /* Voice_ManipulatorUITests.swift */,
+				B5E371851C2B199A0073AB52 /* Info.plist */,
+			);
+			path = "Voice ManipulatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5E3715F1C2B199A0073AB52 /* Voice Manipulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E371881C2B199A0073AB52 /* Build configuration list for PBXNativeTarget "Voice Manipulator" */;
+			buildPhases = (
+				B5E3715C1C2B199A0073AB52 /* Sources */,
+				B5E3715D1C2B199A0073AB52 /* Frameworks */,
+				B5E3715E1C2B199A0073AB52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voice Manipulator";
+			productName = "Voice Manipulator";
+			productReference = B5E371601C2B199A0073AB52 /* Voice Manipulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5E371731C2B199A0073AB52 /* Voice ManipulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E3718B1C2B199A0073AB52 /* Build configuration list for PBXNativeTarget "Voice ManipulatorTests" */;
+			buildPhases = (
+				B5E371701C2B199A0073AB52 /* Sources */,
+				B5E371711C2B199A0073AB52 /* Frameworks */,
+				B5E371721C2B199A0073AB52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5E371761C2B199A0073AB52 /* PBXTargetDependency */,
+			);
+			name = "Voice ManipulatorTests";
+			productName = "Voice ManipulatorTests";
+			productReference = B5E371741C2B199A0073AB52 /* Voice ManipulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5E3717E1C2B199A0073AB52 /* Voice ManipulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E3718E1C2B199A0073AB52 /* Build configuration list for PBXNativeTarget "Voice ManipulatorUITests" */;
+			buildPhases = (
+				B5E3717B1C2B199A0073AB52 /* Sources */,
+				B5E3717C1C2B199A0073AB52 /* Frameworks */,
+				B5E3717D1C2B199A0073AB52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5E371811C2B199A0073AB52 /* PBXTargetDependency */,
+			);
+			name = "Voice ManipulatorUITests";
+			productName = "Voice ManipulatorUITests";
+			productReference = B5E3717F1C2B199A0073AB52 /* Voice ManipulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5E371581C2B199A0073AB52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BenjaminVanHouten;
+				TargetAttributes = {
+					B5E3715F1C2B199A0073AB52 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B5E371731C2B199A0073AB52 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B5E3715F1C2B199A0073AB52;
+					};
+					B5E3717E1C2B199A0073AB52 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B5E3715F1C2B199A0073AB52;
+					};
+				};
+			};
+			buildConfigurationList = B5E3715B1C2B199A0073AB52 /* Build configuration list for PBXProject "Voice Manipulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5E371571C2B199A0073AB52;
+			productRefGroup = B5E371611C2B199A0073AB52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5E3715F1C2B199A0073AB52 /* Voice Manipulator */,
+				B5E371731C2B199A0073AB52 /* Voice ManipulatorTests */,
+				B5E3717E1C2B199A0073AB52 /* Voice ManipulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5E3715E1C2B199A0073AB52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E3716E1C2B199A0073AB52 /* LaunchScreen.storyboard in Resources */,
+				B5E3716B1C2B199A0073AB52 /* Assets.xcassets in Resources */,
+				B5E371691C2B199A0073AB52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E371721C2B199A0073AB52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E3717D1C2B199A0073AB52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5E3715C1C2B199A0073AB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E371661C2B199A0073AB52 /* ViewController.swift in Sources */,
+				B5E371641C2B199A0073AB52 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E371701C2B199A0073AB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E371791C2B199A0073AB52 /* Voice_ManipulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E3717B1C2B199A0073AB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E371841C2B199A0073AB52 /* Voice_ManipulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5E371761C2B199A0073AB52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5E3715F1C2B199A0073AB52 /* Voice Manipulator */;
+			targetProxy = B5E371751C2B199A0073AB52 /* PBXContainerItemProxy */;
+		};
+		B5E371811C2B199A0073AB52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5E3715F1C2B199A0073AB52 /* Voice Manipulator */;
+			targetProxy = B5E371801C2B199A0073AB52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5E371671C2B199A0073AB52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5E371681C2B199A0073AB52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5E3716C1C2B199A0073AB52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5E3716D1C2B199A0073AB52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5E371861C2B199A0073AB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5E371871C2B199A0073AB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5E371891C2B199A0073AB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Voice Manipulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benjaminvanhouten.Voice-Manipulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5E3718A1C2B199A0073AB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Voice Manipulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benjaminvanhouten.Voice-Manipulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5E3718C1C2B199A0073AB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Voice ManipulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benjaminvanhouten.Voice-ManipulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voice Manipulator.app/Voice Manipulator";
+			};
+			name = Debug;
+		};
+		B5E3718D1C2B199A0073AB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Voice ManipulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benjaminvanhouten.Voice-ManipulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voice Manipulator.app/Voice Manipulator";
+			};
+			name = Release;
+		};
+		B5E3718F1C2B199A0073AB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Voice ManipulatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benjaminvanhouten.Voice-ManipulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Voice Manipulator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B5E371901C2B199A0073AB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Voice ManipulatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benjaminvanhouten.Voice-ManipulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Voice Manipulator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5E3715B1C2B199A0073AB52 /* Build configuration list for PBXProject "Voice Manipulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E371861C2B199A0073AB52 /* Debug */,
+				B5E371871C2B199A0073AB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5E371881C2B199A0073AB52 /* Build configuration list for PBXNativeTarget "Voice Manipulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E371891C2B199A0073AB52 /* Debug */,
+				B5E3718A1C2B199A0073AB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5E3718B1C2B199A0073AB52 /* Build configuration list for PBXNativeTarget "Voice ManipulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E3718C1C2B199A0073AB52 /* Debug */,
+				B5E3718D1C2B199A0073AB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5E3718E1C2B199A0073AB52 /* Build configuration list for PBXNativeTarget "Voice ManipulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E3718F1C2B199A0073AB52 /* Debug */,
+				B5E371901C2B199A0073AB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5E371581C2B199A0073AB52 /* Project object */;
+}
