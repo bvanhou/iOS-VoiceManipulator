@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B5E371641C2B199A0073AB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E371631C2B199A0073AB52 /* AppDelegate.swift */; };
-		B5E371661C2B199A0073AB52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E371651C2B199A0073AB52 /* ViewController.swift */; };
+		B5E371661C2B199A0073AB52 /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E371651C2B199A0073AB52 /* RecordAudioViewController.swift */; };
 		B5E371691C2B199A0073AB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E371671C2B199A0073AB52 /* Main.storyboard */; };
 		B5E3716B1C2B199A0073AB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E3716A1C2B199A0073AB52 /* Assets.xcassets */; };
 		B5E3716E1C2B199A0073AB52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E3716C1C2B199A0073AB52 /* LaunchScreen.storyboard */; };
 		B5E371791C2B199A0073AB52 /* Voice_ManipulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E371781C2B199A0073AB52 /* Voice_ManipulatorTests.swift */; };
 		B5E371841C2B199A0073AB52 /* Voice_ManipulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E371831C2B199A0073AB52 /* Voice_ManipulatorUITests.swift */; };
+		B5E371921C2B90B20073AB52 /* PlayRecordedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E371911C2B90B20073AB52 /* PlayRecordedViewController.swift */; };
+		B5E371941C2B96330073AB52 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5E371931C2B96330073AB52 /* movie_quote.mp3 */; };
+		B5F60D731C2C93A7009E76FB /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F60D721C2C93A7009E76FB /* RecordedAudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		B5E371601C2B199A0073AB52 /* Voice Manipulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voice Manipulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E371631C2B199A0073AB52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5E371651C2B199A0073AB52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5E371651C2B199A0073AB52 /* RecordAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordAudioViewController.swift; sourceTree = "<group>"; };
 		B5E371681C2B199A0073AB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5E3716A1C2B199A0073AB52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5E3716D1C2B199A0073AB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		B5E3717F1C2B199A0073AB52 /* Voice ManipulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voice ManipulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E371831C2B199A0073AB52 /* Voice_ManipulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice_ManipulatorUITests.swift; sourceTree = "<group>"; };
 		B5E371851C2B199A0073AB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E371911C2B90B20073AB52 /* PlayRecordedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayRecordedViewController.swift; sourceTree = "<group>"; };
+		B5E371931C2B96330073AB52 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = movie_quote.mp3; path = ../../../movie_quote.mp3; sourceTree = "<group>"; };
+		B5F60D721C2C93A7009E76FB /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		B5E371621C2B199A0073AB52 /* Voice Manipulator */ = {
 			isa = PBXGroup;
 			children = (
+				B5E371951C2B96D40073AB52 /* Supporting Files */,
 				B5E371631C2B199A0073AB52 /* AppDelegate.swift */,
-				B5E371651C2B199A0073AB52 /* ViewController.swift */,
+				B5E371651C2B199A0073AB52 /* RecordAudioViewController.swift */,
 				B5E371671C2B199A0073AB52 /* Main.storyboard */,
+				B5F60D721C2C93A7009E76FB /* RecordedAudio.swift */,
+				B5E371911C2B90B20073AB52 /* PlayRecordedViewController.swift */,
 				B5E3716A1C2B199A0073AB52 /* Assets.xcassets */,
 				B5E3716C1C2B199A0073AB52 /* LaunchScreen.storyboard */,
 				B5E3716F1C2B199A0073AB52 /* Info.plist */,
@@ -123,6 +132,14 @@
 				B5E371851C2B199A0073AB52 /* Info.plist */,
 			);
 			path = "Voice ManipulatorUITests";
+			sourceTree = "<group>";
+		};
+		B5E371951C2B96D40073AB52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5E371931C2B96330073AB52 /* movie_quote.mp3 */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +210,7 @@
 				TargetAttributes = {
 					B5E3715F1C2B199A0073AB52 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QY3B35G464;
 					};
 					B5E371731C2B199A0073AB52 = {
 						CreatedOnToolsVersion = 7.2;
@@ -231,6 +249,7 @@
 			files = (
 				B5E3716E1C2B199A0073AB52 /* LaunchScreen.storyboard in Resources */,
 				B5E3716B1C2B199A0073AB52 /* Assets.xcassets in Resources */,
+				B5E371941C2B96330073AB52 /* movie_quote.mp3 in Resources */,
 				B5E371691C2B199A0073AB52 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5E371661C2B199A0073AB52 /* ViewController.swift in Sources */,
+				B5F60D731C2C93A7009E76FB /* RecordedAudio.swift in Sources */,
+				B5E371661C2B199A0073AB52 /* RecordAudioViewController.swift in Sources */,
+				B5E371921C2B90B20073AB52 /* PlayRecordedViewController.swift in Sources */,
 				B5E371641C2B199A0073AB52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Voice Manipulator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.benjaminvanhouten.Voice-Manipulator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Voice Manipulator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.benjaminvanhouten.Voice-Manipulator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +509,7 @@
 				B5E3718A1C2B199A0073AB52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5E3718B1C2B199A0073AB52 /* Build configuration list for PBXNativeTarget "Voice ManipulatorTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +518,7 @@
 				B5E3718D1C2B199A0073AB52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5E3718E1C2B199A0073AB52 /* Build configuration list for PBXNativeTarget "Voice ManipulatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +527,7 @@
 				B5E371901C2B199A0073AB52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
