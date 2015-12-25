@@ -10,7 +10,7 @@
         <!--Record Your Voice-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="RecordAudioViewController" customModule="Voice_Manipulator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RecordAudioViewController" customModule="iOS_Voice_Manipulator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -95,7 +95,7 @@
         <!--Play Recorded View Controller-->
         <scene sceneID="fbJ-06-WnB">
             <objects>
-                <viewController id="I1e-hl-ESE" customClass="PlayRecordedViewController" customModule="Voice_Manipulator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="I1e-hl-ESE" customClass="PlayRecordedViewController" customModule="iOS_Voice_Manipulator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q4P-vP-ruA"/>
                         <viewControllerLayoutGuide type="bottom" id="WYe-es-4xz"/>
@@ -168,16 +168,16 @@
                                 <exclude reference="o4c-ya-0JY"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="WHI-6M-gAK"/>
-                                <exclude reference="jXV-nC-cbo"/>
+                                <exclude reference="1eA-of-1ye"/>
+                                <exclude reference="rgl-fi-38q"/>
+                                <exclude reference="vcY-a2-bKD"/>
+                                <exclude reference="Rjn-KM-RNf"/>
                                 <exclude reference="UcZ-TG-l0T"/>
                                 <exclude reference="c2z-js-CbZ"/>
                                 <exclude reference="qVj-QG-Rxt"/>
                                 <exclude reference="9Lw-t7-jLW"/>
-                                <exclude reference="Rjn-KM-RNf"/>
-                                <exclude reference="1eA-of-1ye"/>
-                                <exclude reference="rgl-fi-38q"/>
-                                <exclude reference="vcY-a2-bKD"/>
+                                <exclude reference="WHI-6M-gAK"/>
+                                <exclude reference="jXV-nC-cbo"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -189,16 +189,16 @@
                                 <include reference="o4c-ya-0JY"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="WHI-6M-gAK"/>
-                                <include reference="jXV-nC-cbo"/>
+                                <include reference="1eA-of-1ye"/>
+                                <include reference="rgl-fi-38q"/>
+                                <include reference="vcY-a2-bKD"/>
+                                <include reference="Rjn-KM-RNf"/>
                                 <include reference="UcZ-TG-l0T"/>
                                 <include reference="c2z-js-CbZ"/>
                                 <include reference="qVj-QG-Rxt"/>
                                 <include reference="9Lw-t7-jLW"/>
-                                <include reference="Rjn-KM-RNf"/>
-                                <include reference="1eA-of-1ye"/>
-                                <include reference="rgl-fi-38q"/>
-                                <include reference="vcY-a2-bKD"/>
+                                <include reference="WHI-6M-gAK"/>
+                                <include reference="jXV-nC-cbo"/>
                             </mask>
                         </variation>
                     </view>

@@ -58,6 +58,9 @@ class PlayRecordedViewController: UIViewController {
         stopPlayBack.hidden = false
         audioPlayer.currentTime = 0.0
         audioPlayer.rate = rate
+        audioPlayer.stop()
+        audioEngine.stop()
+        audioEngine.reset()
         audioPlayer.play()
     }
     

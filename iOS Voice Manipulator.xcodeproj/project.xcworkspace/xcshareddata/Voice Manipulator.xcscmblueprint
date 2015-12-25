@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A3095128047D39D93B69A73FC86E82641FD5079D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8F34C1860F69FDF4467EEFC277286C62F95FB05D" : 0,
+    "A3095128047D39D93B69A73FC86E82641FD5079D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BD5BB810-22CB-430D-B33E-352CD2A47142",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8F34C1860F69FDF4467EEFC277286C62F95FB05D" : "",
+    "A3095128047D39D93B69A73FC86E82641FD5079D" : "Voice%20Manipulator\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Voice Manipulator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Voice Manipulator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/github.com\/bvanhou\/iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8F34C1860F69FDF4467EEFC277286C62F95FB05D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/github.com\/bvanhou\/repros.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3095128047D39D93B69A73FC86E82641FD5079D"
+    }
+  ]
+}
